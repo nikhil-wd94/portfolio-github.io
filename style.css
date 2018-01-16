@@ -1171,7 +1171,24 @@ canvas {
     color: #fff;
     transform: scale(1.1);
 }
+.send-mail:link, .send-mail:visited{
+    display: inline-block;
+    padding: 5px 15px;
+    font-family: "roboto condensed", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    background-color: #ebb949;
+    border-radius: 20px;
+    margin: 0 2rem;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
 
+.send-mail:hover, .send-mail:active{
+    background-color: #d40019;
+    color: #fff;
+}
 /*==================================================CONTACT SECTION==========================================================
 ============================================================================================================================*/
 
